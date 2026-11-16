@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap">
+    <style>
+        body {
+            background-color: aliceblue;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            padding: 20px;
+            height: 40px;
+        }
+        header h1 {
+            margin-top: 0;
+            color: blueviolet;
+            margin-left: 20px;
+        }
+        .head {
+            display: flex;
+            gap: 30px;
+            margin-right: 20px;
+        }
+        .head a {
+            color: black;
+            text-decoration: none;
+            margin-top: 5px;
+        }
+        .head button {
+            color: white;
+            background-color: blue;
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            margin-top: 0;
+            border-style: hidden;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .head2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .head2 h1 {
+            margin-top: 80px;
+            font-size: 50px;
+            margin-bottom: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            color: rgb(28, 24, 31);
+        }
+        .head2 p {
+            font-size: 20px;   
+        }
+        .head2 button {
+            width: 200px;
+            height: 50px;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            font-weight: bold;
+            border-style: hidden;
+        }
+        .trio {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;    
+        }
+        .card {
+            background-color: white;
+            height: 270px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .card h1 {
+            font-size: 35px;
+            font-weight: bolder;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LoanAptech</h1>
+        <div class="head">
+            <a href="#">Home</a>
+            <a href="#">Loans</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+            <button>Sign Up</button>
+        </div>
+    </header>
+    <div class="head2">
+        <h1>Welcome to LoanAptech</h1>
+        <p>Get instant personal loans up to $50,000 with low interest rates and flexible <br> <span style="margin-left: 40%;"> repayment options. </span></p>
+        <button>Apply Now, It's Free</button>
+    </div>
+    <div class="trio">
+        <div class="card">
+            <h1>Lightning <br>Fast</h1>
+            <h2>Lightning Fast <br>Approval</h2>
+            <p>Get decision in under 10 <br>minutes</p>
+        </div>
+        <div class="card">
+            <h1>No <br>Paperwork</h1>
+            <h2>No paperwork <br>required</h2>
+            <p>100% digital & hassle-free <br>process</p>
+        </div>
+        <div class="card">
+            <h1>Best <br>Rates</h1>
+            <h2>Lowest Interest <br>Rates</h2>
+            <p>Starting from just 8.99% p.a.</p>
+        </div>
+    </div>
+</body>
+</html>

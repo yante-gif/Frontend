@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+            width: 90%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        caption {
+            font-weight: bolder;
+        }
+        tr:hover {
+            background-color: black;
+            color: white;
+
+        }
+        tr:nth-child(2n + 1) {
+            background-color: green;
+            color: white;
+        }
+        tr:nth-child(2n) {
+            background-color: grey;
+            color: white;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <h2>Tables in HTML</h2>
+    <p>table tag is used to define table in html</p>
+    <p>tr is used to define table row</p>
+    <p>th is used to define table heading</p>
+    <p>td is used to define table data</p>
+    <table>
+        <caption>Tables in html</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Fola Wale</td>
+            <td>20</td>
+            <td>Lagos</td>
+        </tr>
+        <tr>
+            <td>Folayemi</td>
+            <td>22</td>
+            <td>Ibadan</td>
+        </tr>
+        <tr>
+            <td>Yante</td>
+            <td>30</td>
+            <td>Ikeja</td>
+        </tr>
+        <tr>
+            <td>Frank</td>
+            <td>24</td>
+            <td>Washington DC</td>
+        </tr>
+    </table>
+
+</body>
+</html>

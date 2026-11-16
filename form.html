@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: brown;}
+        label {color: white;}
+        h1 {color: white;}
+        p {color: white;}
+        form {
+            border-radius: 20px;
+            border: 1px solid burlywood;
+            border-color: wheat;
+            width: 300px; 
+            padding: 20px;
+        }
+        input {
+            height: 30px;
+            border-color: burlywood;
+            border-radius: 8px;
+            padding: 5px;
+        }
+        textarea {
+            border-radius: 8px;
+            padding: 5px;
+        }
+        button {
+            background-color: burlywood;
+        }
+              
+    </style>
+</head>
+<body>
+    <h1>Forms in html</h1>
+    <p>form tag is used to define forms in html</p>
+    <form>
+        <label for="fname">First name</label>
+        <input type="text" id="fname">
+        <br><br>
+        <label for="fname">Last name</label>
+        <input type="text" id="fname">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <br><br>
+        <label for="date">Date</label>
+        <input type="date" id="date">
+        <br><br>
+        <label for="color">Color</label>
+        <input type="color" id="color">
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone"><br><br>
+        <button>Submit</button>
+
+      
+    </form>
+    <br><hr><br>
+    <form action="submit.js">
+        <input type="username" placeholder="Enter your username">
+        <br><br>
+        <input type="email" placeholder="Enter your email">
+        <br><br>
+        <input type="password" placeholder="Enter your password">
+        <br><br>
+        <textarea name="contact" placeholder="Contact Us" rows="6" cols="35"></textarea><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        div {
+            display: inline-block;
+            border: 1px solid white;
+            background-color: rgb(46, 14, 14);
+            height: 110px;
+            width: 40%;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+            margin-right: 10px;
+            border-style: hidden;
+
+        }
+        table{
+            border: 1px solid lightgrey;
+            text-align: center;  
+            border-collapse: collapse;
+            width: 83.5%;
+                     
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid lightgrey;
+            
+        }
+        input {
+            margin-bottom: 0.6%;
+            width: 83%;
+            border: 1px solid lightgrey;
+            border-radius: 7px;   
+
+        }
+        input:hover {
+            background-color: rgb(46, 14, 14);
+            color: white;
+
+        }
+        h2 {
+            color: rgb(46, 14, 14);
+
+        }
+        button:hover {
+            background-color: green;
+            
+        }
+        button {
+            color: white; background-color: rgb(46, 14, 14);
+            border-radius: 7px;
+        }
+        tr:hover {
+            background-color: rgb(46, 14, 14);
+            color: white;
+        }
+        th {
+            background-color: rgb(46, 14, 14);
+            color: white;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Left box</h1>
+        <p>Content for left box goes here</p>
+    </div>
+    <div>
+        <h1>Right box</h1>
+        <p>Content for right box goes here</p>
+    </div><br><br>
+    <table>
+        <tr style="color: black; background-color: white;">
+            <th>#</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>john@example.com</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>James Smith</td>
+            <td>james@example.com</td>
+            <td>Inactive</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Bob Johnson</td>
+            <td>bob@example.com</td>
+            <td>Active</td>
+        </tr>
+    </table>
+    <h2>Register User</h2>
+    <form action="submit.js">
+        <input type="name" placeholder="Username"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="password" placeholder="Password"> <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

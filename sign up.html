@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+        }
+        div {
+            border-radius: 10px;
+            height: 430px;
+            width: 350px;
+            background-color: white;
+            padding: 20px;
+            
+            
+        }
+        h1 {
+            margin-bottom: 2px;
+        }
+        .texts {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        button {
+            width: 310px;
+            height: 35px;
+            text-align: justify;
+            border-radius: 5px;
+            border-style: hidden;
+            background-color: rgb(5, 96, 5);
+            color: white;
+            padding: 10px;
+        }
+        input {
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+            
+        }
+        input:hover {
+            border: 2px solid black;
+        }
+        .textss {
+            margin-top: 5px;
+        }
+        h3 {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Create Account</h1>
+        <p class="textss">Join AccountHub today!</p>
+        <form action="submit.js">
+            <h3>Full Name</h3>
+            <input type="name" placeholder="Ini Tayo">
+            <h3>Email</h3>
+            <input type="email" placeholder="initayo05@gmail.com"><br>
+            <h3>Password</h3>
+            <input type="password" placeholder="At least 6 characters">
+        </form><br>
+        <button>Login</button><br><br>
+        <p class="texts">Already have an account?<span style="color: green; cursor: pointer;">Log in</span></p>
+
+    </div>
+</body>
+</html>

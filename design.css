@@ -1,0 +1,401 @@
+
+        body {
+            margin: 0;  
+        }
+        .Idan {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            padding-left: 100px;
+            padding-right: 100px;  
+        }
+        .box {
+            display: flex;
+            justify-content: space-between;      
+        }
+        .boxx {
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .boxx a {
+            color: black;
+            text-decoration: none;
+        }
+        .boxx a:hover {
+            color: blue;
+            transform: scale(0.93);
+        }
+        .intro {
+            background-color: rgb(181, 89, 120);
+            min-height: 100px;            
+            color: white;
+            display: flex;
+            border-radius: 15px;
+            padding: 15px;  
+        }
+        .can {
+            background-color: rgb(85, 19, 19);
+            width: 650px;
+            height: 311px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            color: white;
+            border-radius: 15px;
+            padding: 15px;
+            
+        }
+        .can h2 {
+            margin-bottom: 0;
+        }
+        .can a{
+            color: rgb(238, 129, 129);
+            margin-top: 2px;
+            font-size: 13px;
+        }
+        .can a:hover {
+            transform: scale(0.90);
+        }
+        .div {
+            background-color: lightgray;
+            width: 2px;
+            height: 73px;
+            margin: 30px;
+            margin-left: 70px;
+            box-shadow: 5px 5px 8px black;
+        }
+        .x {
+            display: flex;
+            gap: 3px;
+        }
+        .x a {
+            text-decoration: none;
+        }
+        .line {
+            background-color: rgb(188, 60, 60);
+            width: 40px;
+            height: 2px;
+            margin: 10px;
+            box-shadow: 5px 5px 8px black;
+        }
+        .car {
+            display: flex;
+            flex-direction: column;
+        }
+        .car button {
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            border-style: hidden;
+            border: 2px solid white;
+            color: white;
+            background-color: rgb(181, 89, 120);
+            font-size: 10px;
+            box-shadow: 5px 5px 8px black;
+        }
+        .car button:hover{
+            transform: scale(0.93);
+            
+            color: white;
+        }
+        .card {
+            display: flex;
+            gap: 20px;
+            
+        }
+        .cab {
+            background-color: rgb(36, 35, 35);
+            width: 650px;
+            height: 130px;
+            border-radius: 15px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding: 15px;
+
+        }
+        .cab a {
+            color: rgb(238, 129, 129);
+            margin-top: 2px;
+            font-size: 13px;
+        }
+        .cab a:hover {
+            transform: scale(0.90);
+        }
+        .cab h2 {
+            margin-bottom: 0;
+        }
+        .y {
+            display: flex;
+        }
+        .y a {
+            text-decoration: none;
+        }
+        .linee {
+            width: 40px;
+            height: 2px;
+            background-color: rgb(188, 60, 60);
+            margin: 10px;
+            box-shadow: 5px 5px 8px black;
+        }
+        .twin {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .taxi {
+            background-color: rgb(105, 54, 73);
+            border-radius: 15px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            color: white;
+            padding: 15px;
+        }
+        .taxi h2 {
+            margin-bottom: 0;
+        }
+        .taxi a {
+            margin-top: 2px;
+            color: rgb(238, 129, 129);
+            font-size: 13px;
+        }
+        .taxi a:hover {
+            transform: scale(0.90);
+        }
+        .lineee {
+            width: 40px;
+            height: 2px;
+            background-color: rgb(188, 60, 60);
+            margin: 10px;
+            box-shadow: 5px 5px 8px black;     
+        }
+        .z {
+            display: flex;
+        }
+        .z a {
+            text-decoration: none;
+        }
+        .next {
+            display: flex;
+            flex-direction: column;
+        }
+        .next h1 {
+            margin: auto;
+            margin-top: 100px; 
+        }
+        .shapes {
+            display: flex;
+            gap: 100px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .star{
+            background-color: rgb(181, 89, 120);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .star p {
+            margin: 19px;
+            margin-top: 17px;
+            margin-right: 19px;
+        }
+        .setting {
+            background-color: rgb(181, 89, 120);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;   
+        }
+        .setting p {
+            margin: 21px;
+            margin-top: 17px;
+            margin-right: 10px;           
+        }
+        .love {
+            background-color: rgb(181, 89, 120);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .love p {
+            margin: 17px;
+            margin-top: 20px;
+            margin-right: 5px;
+        }
+        .next h3 {
+            margin: auto;
+        }
+        .texts {
+            display: flex;
+            justify-content: center;
+        }
+        .texts h3{  
+            margin: 15px;
+        }
+        .trick {
+            display: flex;
+            flex-direction: column;
+        }
+        .trick p {
+            margin-left: 15px;
+            margin-top: 3px;
+        }
+        .tricky {
+            display: flex;
+            flex-direction: column;
+        }
+        .tricky p {
+            margin-left: 19px;
+            margin-top: 3px;
+        }
+        .treat {
+            display: flex;
+            flex-direction: column;
+        }
+        .treat p {
+            margin-left: 15px;
+            margin-top: 3px;
+        }
+        .phase {
+            display: flex;
+            background-color: rgb(181, 89, 120);
+            width: 550px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 15px;
+            color: white;
+            min-height: 70px;
+            margin-bottom: 10px;
+            justify-content: space-between;
+        }
+        .phase button{
+            display: flex;
+            align-items: center;
+            background-color: rgb(181, 89, 120);
+            height: 30px;
+            width: 100px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 10px;
+            justify-content: center;
+        }
+        .phase button:hover {
+            transform: scale(0.95);
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;   
+        }
+        .button button {
+            box-shadow: 5px 5px 8px black;
+        }
+        .foot {
+            background-color: rgb(36, 35, 35);
+            height: 300px;
+            width: 100%;
+            margin: auto;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;    
+        }
+ 
+        .foots {
+            display: flex;
+            gap: 30px;
+            padding: 10px;
+            
+        }
+        .foots a {
+            color: white;
+            text-decoration: none;   
+        }
+        .foots a:hover {
+            transform: scale(0.95);
+            color: blue;
+        }
+        .wasp h2 {   
+            margin-top: 10px;
+        }
+        .hooks {
+            width: 1000px;
+            height: 1px;
+            background-color: gray;
+            box-shadow: 10px 10px 20px black;
+        }
+        .wasp {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            color: white;
+            margin-left: 60px;
+            margin-right: 80px;
+        }
+        
+        .lines {
+            box-shadow: 5px 5px 10px black;
+            height: 1px;
+            background-color: gray;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .ewo {
+            display: flex;
+            color: gray;
+            justify-content: space-between;
+            padding: 10px;
+            margin-left: 60px;
+        }
+        .ewoo {
+            display: flex;
+            flex-direction: column;
+            color: gray;
+            margin-top: 15px;
+        }
+        .ewoo h2 {
+            margin-bottom: 0;
+        }
+        .ewoo p {
+            margin-top: 0;
+        }
+        .ewooo {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            margin-right: 300px;
+            gap: 5px;
+        } 
+        .ewooo a {
+            color: gray;
+            text-decoration: none;
+        }
+        .last {
+            display: flex;
+            justify-content: end;
+            margin-right: 100px;
+            gap: 20px;
+        }
+        .last div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            border: 1px solid rgb(115, 111, 111);
+            border-radius: 50%;
+            box-shadow: 5px 5px 10px black;
+        }
+        .last div:hover {
+            transform: scale(0.90);
+        }
+        .last div a {
+            color: white;
+            text-decoration: none;
+        }
+        

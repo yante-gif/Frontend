@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            display: flex;
+            background-color: black;
+            color: white;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        div {
+            display: flex;
+            gap: 20px;
+
+        }
+        .link {
+            color: white;
+            text-decoration: none;
+        }
+        .link:hover {
+            color: blue;
+        }
+        .container {
+            display: flex;
+            background-color: saddlebrown;
+            height: 600px;    
+        }
+        aside {
+            margin-top: 2px;
+            display: flex;
+            background-color: white;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            border: 1px solid aliceblue;
+            border-radius: 0 10px;
+            width: 200px;
+            height: 60vh;
+            box-shadow: 8px 10px 15px;
+        }
+        .a {
+            display: flex;
+            border-radius: 5px;
+            color: black;
+            border: 1px solid lightgray;
+            text-decoration: none;
+            align-items: center;
+            padding: 5px;
+            border: 1px solid hidden;
+            
+        }
+        .a:hover {
+            color: blue;
+            transform: scale(1.1);
+        }
+        aside h2 {
+            margin-bottom: 2px;   
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            padding-left: 200px;  
+        }
+        .card h2 {
+            color: white;
+        }
+        .car {
+            display: flex;
+            background-color: white;
+            color: black;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            width: 200px;
+            height: 400px;
+            border-radius: 5px;
+            box-shadow: 8px 10px 15px;
+        }
+        .car:hover {
+            transform: translateY(-10px);
+        }
+        img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            
+            
+        }
+        .can {
+            display: flex;
+            
+            
+
+        }
+        footer {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            height: 80px;
+            
+            
+        }
+        button {
+            border-radius: 5px;
+            color: white;
+            background-color: black;
+        }
+        button:hover {
+            background-color: green;
+            transform: scale(0.9);
+        }
+        .foot {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+        }
+        .foot a{
+            color: white;
+            text-decoration: none;
+        }
+        .foot a:hover {
+            color: blue;
+        }
+        .foot p {
+            color: white;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <div>
+        <a href="#home" class="link">Home</a>
+        <a href="#about" class="link">About</a>
+        <a href="#services" class="link">Services</a>
+        <a href="#contact" class="link">Contact</a>
+        </div>
+        
+    </header>
+    <div class="container">
+            <aside>
+                <h2>Navigation</h2>
+                <a href="#dashboard" class="a">Dashboard</a>
+                <a href="#profile" class="a">Profile</a>
+                <a href="#settings" class="a">Settings</a>
+                <a href="#model" class="a">Model</a>
+                <a href="#invite" class="a">Invite</a>
+                <a href="#transaction" class="a">Transaction</a>
+                <a href="#payment" class="a">Payment</a>
+            </aside>
+            
+            <div class="card">
+                <h2>Profile Cards</h2>
+                <div class="can">
+                    <div class="car">
+                        <img src="1.jpeg" alt="first profile">
+                        <h1>Ada Lovelace</h1>
+                        <p>Mathematician and writer, known for his work on early computers</p>
+                        <button>View Profile</button>
+                    </div>
+                    
+                    <div class="car">
+                        <img src="2.jpeg" alt="second profile">
+                        <h1>Grace Hopper</h1>
+                        <p>Computer scientist and US Navy rear admiral. Pioneer of programming languages</p>
+                        <button>View Profile</button>
+                    </div>
+
+                    <div class="car">
+                        <img src="4.jpeg" alt="third profile">
+                        <h1>Alan Turing</h1>
+                        <p>Father of theoretical computer science and artificial intelligence</p>
+                        <button>View Profile</button>
+                    </div>
+                </div>
+            </div>     
+        </div>
+        <footer>
+            <div class="foot">
+                <div>
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#help">Help</a>
+                </div>
+                <p>&copy; 2026 My Website</p>
+            </div>
+            </footer>
+</body>
+</html>

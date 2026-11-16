@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(69, 34, 10);
+             animation-name: head;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        @keyframes head {
+            0%{background-color: rgb(69, 34, 10);}
+            50%{background-color: rgb(94, 45, 12);}
+        }
+        
+        header {
+            
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            padding: 20px;
+            font-size: x-large;
+            position: relative;
+        }
+        img {
+            height: 250px;
+            width: 300px;
+            position: absolute;
+            right: 100px;
+            animation-name: rot;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            
+        }
+        @keyframes rot {
+            0%{transform: rotate(0);}
+            50%{transform: rotate(360deg);}
+            100%{transform: rotate(0);}
+        }
+        .forms {
+            
+            border-radius: 30px;
+            padding: 30px;
+        }
+        h2 {
+            color: white;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 20%;
+            height: 30px;
+            border: 1px solid ;
+            border-radius: 10px;
+            border-style: hidden;
+        }
+        h1 {
+            margin-bottom: 5px;
+        }
+        p {
+            margin-top: 5px;
+        }
+        h1, p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>Create Account</h1>
+        <p>Welcome to the best space to care for your foot!</p>
+        </div>
+        <img src="atomicsoles.html" alt="first">
+    </header>
+    <div class="forms">
+        <form action="submit.js">
+                <h2>Full Name</h2>
+                <input type="name" placeholder="Enter full name">
+                <h2>Email</h2>
+                <input type="email" placeholder="Enter email">
+                <h2>Date of Birth</h2>
+                <input type="date">
+                <h2>Username</h2>
+                <input type="username" placeholder="Enter username">
+                <h2>Password</h2>
+                <input type="password" placeholder="Enter password" class="pass">
+                <span id="toggle" class="eye">👁</span>
+            </form>
+    </div>
+        </div>
+    </div>
+    <script>
+        const password = document.getElementById("password");
+        const toggle = document.getElementById("toggle");
+
+        toggle.addEventListener("click", function () {
+            if (password.type === "password") {
+                password.type = "text";
+            } else {
+                password.type = "password";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        header {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            position: relative;
+            
+        }
+        
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        header a:hover {
+            color: blue;
+        }
+        .logout {
+            position: absolute;
+            right: 50px;
+            color: red;
+            animation-name: rot;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            
+        }
+        @keyframes rot {
+            0%{transform: rotate(-360deg);}
+            50%{transform: rotate(0);}
+            100%{transform: rotate(-0);}
+        }
+        .logout:hover {
+            transform: scale(0.95);
+            color: red;
+             animation-name: unrot;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;      
+        }
+        @keyframes unrot {
+            0%{transform: static(-0);}
+            50%{transform: rotate(0);}
+            100%{transform: rotate(-0);}
+        }
+        .container {
+            display: flex;
+            padding-top: 20px;
+        }
+        .aside {
+            display: flex;
+            flex-direction: column;
+            background-color: gray;
+            height: 430px;
+            width: 250px;
+            color: white;
+            margin: 10px;
+            gap: 10px;
+            font-size: 17px;
+            border-radius: 0 10px;
+            padding: 15px;
+            
+        }
+        .aside a:hover {
+            transform: scale(1.1);
+            text-decoration: underline;
+            
+        }
+        .aside a{
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+        }
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+        .cards {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 5px 8px 15px black;
+            align-items: center;
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: white;
+        }
+        .cards:hover {
+            transform: translateY(-10px);
+        }
+        img {
+            height: 100px;
+            width: 350px;
+            border-radius: 5px;
+        }
+        h2 {
+            margin-bottom: 0;
+        }
+        p {
+            margin-top: 3px;
+        }
+        footer {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            position: relative;
+            margin-top: 20px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <a href="#" class="logout">Logout</a>
+    </header>
+    <div class="container">
+        <aside class="aside">
+            <a href="#">Dashboard</a>
+            <a href="#">Profile</a>
+            <a href="#">Messages</a>
+            <a href="#">Friends</a>
+            <a href="#">Gallery</a>
+            <a href="#">Settings</a>
+            <a href="#">Help</a>
+            <a href="#">Support</a>
+        </aside>
+        <div class="wrap">
+            <div class="cards">
+                <img src="7.jpeg" alt="first image">
+                <h2>Nature</h2>
+                <p>Beautiful scenery of mountains and rivers.</p>
+            </div>
+            <div class="cards">
+                <img src="8.jpeg" alt="second image">
+                <h2>Technology</h2>
+                <p>Latest trends in mobile and web apps.</p>
+            </div>
+            <div class="cards">
+                <img src="9.jpeg" alt="third image">
+                <h2>Sports</h2>
+                <p>Stay updated with football and basketball.</p>
+            </div>
+            <div class="cards">
+                <img src="10.jpeg" alt="fourth image">
+                <h2>Education</h2>
+                <p>Learning resources and study guide.</p>
+            </div>
+            <div class="cards">
+                <img src="11.jpeg" alt="fifth image">
+                <h2>Health</h2>
+                <p>Tips for a healthy and balanced lifestyle.</p>
+            </div>
+            <div class="cards">
+                <img src="12.jpeg" alt="sixth image">
+                <h2>Travel</h2>
+                <p>Discover amazing destinations worldwide.</p>
+            </div>
+        </div>
+        <aside class="aside">
+            <a href="#">Notifications</a>
+            <a href="#">Calendar</a>
+            <a href="#">Tasks</a>
+            <a href="#">Events</a>
+            <a href="#">Reports</a>
+            <a href="#">Analytics</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+        </aside>
+    </div>
+    <footer>
+        <a href="#">Privacy Policy</a>  
+        <a href="#">Terms of Service</a>
+        <a href="#">Help Center</a>
+        <a href="#">Feedback</a>
+        
+    </footer>
+   
+</body>
+</html>
